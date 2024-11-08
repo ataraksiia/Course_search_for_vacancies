@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project 2- search for vacancies"
+version = "0.1.0"
+description = ""
+authors = ["Ataraksia <1509lisavi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "project 2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.lint.dependencies]
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+mypy = "^1.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
